@@ -1,10 +1,7 @@
 from re import A, S
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 import plotly.express as px
-import seaborn as sns
-import numpy as np
 import lorem
 st.set_page_config(layout="wide")
 
