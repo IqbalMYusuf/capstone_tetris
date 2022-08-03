@@ -1,0 +1,649 @@
+,kabupaten/kota,tempat_kejadian,jumlah_kekerasan,tahun
+0,kabupaten bogor,rumah tangga,3,2018
+1,kabupaten bogor,tempat kerja,0,2018
+2,kabupaten bogor,lainnya,2,2018
+3,kabupaten bogor,sekolah,1,2018
+4,kabupaten bogor,fasilitas umum,0,2018
+5,kabupaten bogor,lembaga pendidikan kilat,0,2018
+6,kabupaten sukabumi,rumah tangga,8,2018
+7,kabupaten sukabumi,tempat kerja,0,2018
+8,kabupaten sukabumi,lainnya,69,2018
+9,kabupaten sukabumi,sekolah,0,2018
+10,kabupaten sukabumi,fasilitas umum,0,2018
+11,kabupaten sukabumi,lembaga pendidikan kilat,0,2018
+12,kabupaten cianjur,rumah tangga,3,2018
+13,kabupaten cianjur,tempat kerja,0,2018
+14,kabupaten cianjur,lainnya,1,2018
+15,kabupaten cianjur,sekolah,0,2018
+16,kabupaten cianjur,fasilitas umum,0,2018
+17,kabupaten cianjur,lembaga pendidikan kilat,0,2018
+18,kabupaten bandung,rumah tangga,21,2018
+19,kabupaten bandung,tempat kerja,1,2018
+20,kabupaten bandung,lainnya,7,2018
+21,kabupaten bandung,sekolah,7,2018
+22,kabupaten bandung,fasilitas umum,9,2018
+23,kabupaten bandung,lembaga pendidikan kilat,0,2018
+24,kabupaten garut,rumah tangga,5,2018
+25,kabupaten garut,tempat kerja,0,2018
+26,kabupaten garut,lainnya,1,2018
+27,kabupaten garut,sekolah,1,2018
+28,kabupaten garut,fasilitas umum,1,2018
+29,kabupaten garut,lembaga pendidikan kilat,0,2018
+30,kabupaten tasikmalaya,rumah tangga,12,2018
+31,kabupaten tasikmalaya,tempat kerja,0,2018
+32,kabupaten tasikmalaya,lainnya,10,2018
+33,kabupaten tasikmalaya,sekolah,2,2018
+34,kabupaten tasikmalaya,fasilitas umum,19,2018
+35,kabupaten tasikmalaya,lembaga pendidikan kilat,0,2018
+36,kabupaten ciamis,rumah tangga,7,2018
+37,kabupaten ciamis,tempat kerja,0,2018
+38,kabupaten ciamis,lainnya,12,2018
+39,kabupaten ciamis,sekolah,0,2018
+40,kabupaten ciamis,fasilitas umum,0,2018
+41,kabupaten ciamis,lembaga pendidikan kilat,0,2018
+42,kabupaten kuningan,rumah tangga,6,2018
+43,kabupaten kuningan,tempat kerja,0,2018
+44,kabupaten kuningan,lainnya,6,2018
+45,kabupaten kuningan,sekolah,6,2018
+46,kabupaten kuningan,fasilitas umum,0,2018
+47,kabupaten kuningan,lembaga pendidikan kilat,0,2018
+48,kabupaten cirebon,rumah tangga,17,2018
+49,kabupaten cirebon,tempat kerja,1,2018
+50,kabupaten cirebon,lainnya,1,2018
+51,kabupaten cirebon,sekolah,1,2018
+52,kabupaten cirebon,fasilitas umum,2,2018
+53,kabupaten cirebon,lembaga pendidikan kilat,0,2018
+54,kabupaten majalengka,rumah tangga,7,2018
+55,kabupaten majalengka,tempat kerja,0,2018
+56,kabupaten majalengka,lainnya,4,2018
+57,kabupaten majalengka,sekolah,3,2018
+58,kabupaten majalengka,fasilitas umum,2,2018
+59,kabupaten majalengka,lembaga pendidikan kilat,0,2018
+60,kabupaten sumedang,rumah tangga,10,2018
+61,kabupaten sumedang,tempat kerja,0,2018
+62,kabupaten sumedang,lainnya,16,2018
+63,kabupaten sumedang,sekolah,0,2018
+64,kabupaten sumedang,fasilitas umum,3,2018
+65,kabupaten sumedang,lembaga pendidikan kilat,0,2018
+66,kabupaten indramayu,rumah tangga,7,2018
+67,kabupaten indramayu,tempat kerja,0,2018
+68,kabupaten indramayu,lainnya,2,2018
+69,kabupaten indramayu,sekolah,1,2018
+70,kabupaten indramayu,fasilitas umum,1,2018
+71,kabupaten indramayu,lembaga pendidikan kilat,0,2018
+72,kabupaten subang,rumah tangga,28,2018
+73,kabupaten subang,tempat kerja,0,2018
+74,kabupaten subang,lainnya,11,2018
+75,kabupaten subang,sekolah,1,2018
+76,kabupaten subang,fasilitas umum,7,2018
+77,kabupaten subang,lembaga pendidikan kilat,0,2018
+78,kabupaten purwakarta,rumah tangga,10,2018
+79,kabupaten purwakarta,tempat kerja,0,2018
+80,kabupaten purwakarta,lainnya,5,2018
+81,kabupaten purwakarta,sekolah,2,2018
+82,kabupaten purwakarta,fasilitas umum,1,2018
+83,kabupaten purwakarta,lembaga pendidikan kilat,0,2018
+84,kabupaten karawang,rumah tangga,23,2018
+85,kabupaten karawang,tempat kerja,0,2018
+86,kabupaten karawang,lainnya,11,2018
+87,kabupaten karawang,sekolah,1,2018
+88,kabupaten karawang,fasilitas umum,1,2018
+89,kabupaten karawang,lembaga pendidikan kilat,0,2018
+90,kabupaten bekasi,rumah tangga,29,2018
+91,kabupaten bekasi,tempat kerja,2,2018
+92,kabupaten bekasi,lainnya,27,2018
+93,kabupaten bekasi,sekolah,0,2018
+94,kabupaten bekasi,fasilitas umum,7,2018
+95,kabupaten bekasi,lembaga pendidikan kilat,0,2018
+96,kabupaten bandung barat,rumah tangga,15,2018
+97,kabupaten bandung barat,tempat kerja,0,2018
+98,kabupaten bandung barat,lainnya,0,2018
+99,kabupaten bandung barat,sekolah,0,2018
+100,kabupaten bandung barat,fasilitas umum,1,2018
+101,kabupaten bandung barat,lembaga pendidikan kilat,0,2018
+102,kabupaten pangandaran,rumah tangga,2,2018
+103,kabupaten pangandaran,tempat kerja,0,2018
+104,kabupaten pangandaran,lainnya,5,2018
+105,kabupaten pangandaran,sekolah,0,2018
+106,kabupaten pangandaran,fasilitas umum,0,2018
+107,kabupaten pangandaran,lembaga pendidikan kilat,0,2018
+108,kota bogor,rumah tangga,25,2018
+109,kota bogor,tempat kerja,1,2018
+110,kota bogor,lainnya,3,2018
+111,kota bogor,sekolah,2,2018
+112,kota bogor,fasilitas umum,6,2018
+113,kota bogor,lembaga pendidikan kilat,0,2018
+114,kota sukabumi,rumah tangga,12,2018
+115,kota sukabumi,tempat kerja,0,2018
+116,kota sukabumi,lainnya,17,2018
+117,kota sukabumi,sekolah,0,2018
+118,kota sukabumi,fasilitas umum,0,2018
+119,kota sukabumi,lembaga pendidikan kilat,0,2018
+120,kota bandung,rumah tangga,51,2018
+121,kota bandung,tempat kerja,0,2018
+122,kota bandung,lainnya,12,2018
+123,kota bandung,sekolah,0,2018
+124,kota bandung,fasilitas umum,2,2018
+125,kota bandung,lembaga pendidikan kilat,0,2018
+126,kota cirebon,rumah tangga,13,2018
+127,kota cirebon,tempat kerja,0,2018
+128,kota cirebon,lainnya,2,2018
+129,kota cirebon,sekolah,1,2018
+130,kota cirebon,fasilitas umum,1,2018
+131,kota cirebon,lembaga pendidikan kilat,0,2018
+132,kota bekasi,rumah tangga,6,2018
+133,kota bekasi,tempat kerja,0,2018
+134,kota bekasi,lainnya,2,2018
+135,kota bekasi,sekolah,0,2018
+136,kota bekasi,fasilitas umum,0,2018
+137,kota bekasi,lembaga pendidikan kilat,0,2018
+138,kota depok,rumah tangga,40,2018
+139,kota depok,tempat kerja,0,2018
+140,kota depok,lainnya,55,2018
+141,kota depok,sekolah,5,2018
+142,kota depok,fasilitas umum,0,2018
+143,kota depok,lembaga pendidikan kilat,0,2018
+144,kota cimahi,rumah tangga,9,2018
+145,kota cimahi,tempat kerja,0,2018
+146,kota cimahi,lainnya,2,2018
+147,kota cimahi,sekolah,2,2018
+148,kota cimahi,fasilitas umum,4,2018
+149,kota cimahi,lembaga pendidikan kilat,0,2018
+150,kota tasikmalaya,rumah tangga,5,2018
+151,kota tasikmalaya,tempat kerja,0,2018
+152,kota tasikmalaya,lainnya,2,2018
+153,kota tasikmalaya,sekolah,3,2018
+154,kota tasikmalaya,fasilitas umum,2,2018
+155,kota tasikmalaya,lembaga pendidikan kilat,0,2018
+156,kota banjar,rumah tangga,1,2018
+157,kota banjar,tempat kerja,0,2018
+158,kota banjar,lainnya,10,2018
+159,kota banjar,sekolah,0,2018
+160,kota banjar,fasilitas umum,1,2018
+161,kota banjar,lembaga pendidikan kilat,0,2018
+162,kabupaten bogor,rumah tangga,4,2019
+163,kabupaten bogor,tempat kerja,1,2019
+164,kabupaten bogor,lainnya,4,2019
+165,kabupaten bogor,sekolah,0,2019
+166,kabupaten bogor,fasilitas umum,1,2019
+167,kabupaten bogor,lembaga pendidikan kilat,0,2019
+168,kabupaten sukabumi,rumah tangga,13,2019
+169,kabupaten sukabumi,tempat kerja,0,2019
+170,kabupaten sukabumi,lainnya,107,2019
+171,kabupaten sukabumi,sekolah,0,2019
+172,kabupaten sukabumi,fasilitas umum,0,2019
+173,kabupaten sukabumi,lembaga pendidikan kilat,0,2019
+174,kabupaten cianjur,rumah tangga,1,2019
+175,kabupaten cianjur,tempat kerja,1,2019
+176,kabupaten cianjur,lainnya,2,2019
+177,kabupaten cianjur,sekolah,0,2019
+178,kabupaten cianjur,fasilitas umum,0,2019
+179,kabupaten cianjur,lembaga pendidikan kilat,0,2019
+180,kabupaten bandung,rumah tangga,36,2019
+181,kabupaten bandung,tempat kerja,1,2019
+182,kabupaten bandung,lainnya,2,2019
+183,kabupaten bandung,sekolah,3,2019
+184,kabupaten bandung,fasilitas umum,22,2019
+185,kabupaten bandung,lembaga pendidikan kilat,0,2019
+186,kabupaten garut,rumah tangga,9,2019
+187,kabupaten garut,tempat kerja,0,2019
+188,kabupaten garut,lainnya,2,2019
+189,kabupaten garut,sekolah,0,2019
+190,kabupaten garut,fasilitas umum,2,2019
+191,kabupaten garut,lembaga pendidikan kilat,0,2019
+192,kabupaten tasikmalaya,rumah tangga,0,2019
+193,kabupaten tasikmalaya,tempat kerja,0,2019
+194,kabupaten tasikmalaya,lainnya,1,2019
+195,kabupaten tasikmalaya,sekolah,0,2019
+196,kabupaten tasikmalaya,fasilitas umum,0,2019
+197,kabupaten tasikmalaya,lembaga pendidikan kilat,0,2019
+198,kabupaten ciamis,rumah tangga,3,2019
+199,kabupaten ciamis,tempat kerja,0,2019
+200,kabupaten ciamis,lainnya,0,2019
+201,kabupaten ciamis,sekolah,0,2019
+202,kabupaten ciamis,fasilitas umum,0,2019
+203,kabupaten ciamis,lembaga pendidikan kilat,0,2019
+204,kabupaten kuningan,rumah tangga,2,2019
+205,kabupaten kuningan,tempat kerja,0,2019
+206,kabupaten kuningan,lainnya,0,2019
+207,kabupaten kuningan,sekolah,0,2019
+208,kabupaten kuningan,fasilitas umum,1,2019
+209,kabupaten kuningan,lembaga pendidikan kilat,0,2019
+210,kabupaten cirebon,rumah tangga,61,2019
+211,kabupaten cirebon,tempat kerja,2,2019
+212,kabupaten cirebon,lainnya,16,2019
+213,kabupaten cirebon,sekolah,14,2019
+214,kabupaten cirebon,fasilitas umum,11,2019
+215,kabupaten cirebon,lembaga pendidikan kilat,0,2019
+216,kabupaten majalengka,rumah tangga,2,2019
+217,kabupaten majalengka,tempat kerja,0,2019
+218,kabupaten majalengka,lainnya,11,2019
+219,kabupaten majalengka,sekolah,0,2019
+220,kabupaten majalengka,fasilitas umum,2,2019
+221,kabupaten majalengka,lembaga pendidikan kilat,0,2019
+222,kabupaten sumedang,rumah tangga,5,2019
+223,kabupaten sumedang,tempat kerja,0,2019
+224,kabupaten sumedang,lainnya,10,2019
+225,kabupaten sumedang,sekolah,0,2019
+226,kabupaten sumedang,fasilitas umum,0,2019
+227,kabupaten sumedang,lembaga pendidikan kilat,0,2019
+228,kabupaten indramayu,rumah tangga,11,2019
+229,kabupaten indramayu,tempat kerja,1,2019
+230,kabupaten indramayu,lainnya,2,2019
+231,kabupaten indramayu,sekolah,2,2019
+232,kabupaten indramayu,fasilitas umum,7,2019
+233,kabupaten indramayu,lembaga pendidikan kilat,0,2019
+234,kabupaten subang,rumah tangga,43,2019
+235,kabupaten subang,tempat kerja,0,2019
+236,kabupaten subang,lainnya,1,2019
+237,kabupaten subang,sekolah,0,2019
+238,kabupaten subang,fasilitas umum,0,2019
+239,kabupaten subang,lembaga pendidikan kilat,0,2019
+240,kabupaten purwakarta,rumah tangga,24,2019
+241,kabupaten purwakarta,tempat kerja,0,2019
+242,kabupaten purwakarta,lainnya,8,2019
+243,kabupaten purwakarta,sekolah,1,2019
+244,kabupaten purwakarta,fasilitas umum,1,2019
+245,kabupaten purwakarta,lembaga pendidikan kilat,0,2019
+246,kabupaten karawang,rumah tangga,2,2019
+247,kabupaten karawang,tempat kerja,0,2019
+248,kabupaten karawang,lainnya,0,2019
+249,kabupaten karawang,sekolah,0,2019
+250,kabupaten karawang,fasilitas umum,1,2019
+251,kabupaten karawang,lembaga pendidikan kilat,0,2019
+252,kabupaten bekasi,rumah tangga,4,2019
+253,kabupaten bekasi,tempat kerja,0,2019
+254,kabupaten bekasi,lainnya,1,2019
+255,kabupaten bekasi,sekolah,1,2019
+256,kabupaten bekasi,fasilitas umum,1,2019
+257,kabupaten bekasi,lembaga pendidikan kilat,0,2019
+258,kabupaten bandung barat,rumah tangga,14,2019
+259,kabupaten bandung barat,tempat kerja,0,2019
+260,kabupaten bandung barat,lainnya,4,2019
+261,kabupaten bandung barat,sekolah,1,2019
+262,kabupaten bandung barat,fasilitas umum,0,2019
+263,kabupaten bandung barat,lembaga pendidikan kilat,0,2019
+264,kabupaten pangandaran,rumah tangga,3,2019
+265,kabupaten pangandaran,tempat kerja,0,2019
+266,kabupaten pangandaran,lainnya,2,2019
+267,kabupaten pangandaran,sekolah,1,2019
+268,kabupaten pangandaran,fasilitas umum,1,2019
+269,kabupaten pangandaran,lembaga pendidikan kilat,0,2019
+270,kota bogor,rumah tangga,8,2019
+271,kota bogor,tempat kerja,0,2019
+272,kota bogor,lainnya,1,2019
+273,kota bogor,sekolah,0,2019
+274,kota bogor,fasilitas umum,2,2019
+275,kota bogor,lembaga pendidikan kilat,0,2019
+276,kota sukabumi,rumah tangga,5,2019
+277,kota sukabumi,tempat kerja,1,2019
+278,kota sukabumi,lainnya,1,2019
+279,kota sukabumi,sekolah,1,2019
+280,kota sukabumi,fasilitas umum,0,2019
+281,kota sukabumi,lembaga pendidikan kilat,0,2019
+282,kota bandung,rumah tangga,156,2019
+283,kota bandung,tempat kerja,0,2019
+284,kota bandung,lainnya,72,2019
+285,kota bandung,sekolah,8,2019
+286,kota bandung,fasilitas umum,6,2019
+287,kota bandung,lembaga pendidikan kilat,0,2019
+288,kota cirebon,rumah tangga,4,2019
+289,kota cirebon,tempat kerja,0,2019
+290,kota cirebon,lainnya,1,2019
+291,kota cirebon,sekolah,0,2019
+292,kota cirebon,fasilitas umum,0,2019
+293,kota cirebon,lembaga pendidikan kilat,0,2019
+294,kota bekasi,rumah tangga,1,2019
+295,kota bekasi,tempat kerja,0,2019
+296,kota bekasi,lainnya,1,2019
+297,kota bekasi,sekolah,0,2019
+298,kota bekasi,fasilitas umum,0,2019
+299,kota bekasi,lembaga pendidikan kilat,0,2019
+300,kota depok,rumah tangga,23,2019
+301,kota depok,tempat kerja,0,2019
+302,kota depok,lainnya,7,2019
+303,kota depok,sekolah,0,2019
+304,kota depok,fasilitas umum,0,2019
+305,kota depok,lembaga pendidikan kilat,0,2019
+306,kota cimahi,rumah tangga,6,2019
+307,kota cimahi,tempat kerja,0,2019
+308,kota cimahi,lainnya,5,2019
+309,kota cimahi,sekolah,0,2019
+310,kota cimahi,fasilitas umum,1,2019
+311,kota cimahi,lembaga pendidikan kilat,0,2019
+312,kota tasikmalaya,rumah tangga,3,2019
+313,kota tasikmalaya,tempat kerja,1,2019
+314,kota tasikmalaya,lainnya,0,2019
+315,kota tasikmalaya,sekolah,0,2019
+316,kota tasikmalaya,fasilitas umum,1,2019
+317,kota tasikmalaya,lembaga pendidikan kilat,0,2019
+318,kota banjar,rumah tangga,1,2019
+319,kota banjar,tempat kerja,0,2019
+320,kota banjar,lainnya,0,2019
+321,kota banjar,sekolah,0,2019
+322,kota banjar,fasilitas umum,0,2019
+323,kota banjar,lembaga pendidikan kilat,0,2019
+324,kabupaten bogor,rumah tangga,6,2020
+325,kabupaten bogor,tempat kerja,0,2020
+326,kabupaten bogor,lainnya,2,2020
+327,kabupaten bogor,sekolah,4,2020
+328,kabupaten bogor,fasilitas umum,1,2020
+329,kabupaten bogor,lembaga pendidikan kilat,0,2020
+330,kabupaten sukabumi,rumah tangga,23,2020
+331,kabupaten sukabumi,tempat kerja,5,2020
+332,kabupaten sukabumi,lainnya,93,2020
+333,kabupaten sukabumi,sekolah,4,2020
+334,kabupaten sukabumi,fasilitas umum,1,2020
+335,kabupaten sukabumi,lembaga pendidikan kilat,0,2020
+336,kabupaten cianjur,rumah tangga,0,2020
+337,kabupaten cianjur,tempat kerja,0,2020
+338,kabupaten cianjur,lainnya,0,2020
+339,kabupaten cianjur,sekolah,0,2020
+340,kabupaten cianjur,fasilitas umum,0,2020
+341,kabupaten cianjur,lembaga pendidikan kilat,0,2020
+342,kabupaten bandung,rumah tangga,67,2020
+343,kabupaten bandung,tempat kerja,0,2020
+344,kabupaten bandung,lainnya,6,2020
+345,kabupaten bandung,sekolah,3,2020
+346,kabupaten bandung,fasilitas umum,6,2020
+347,kabupaten bandung,lembaga pendidikan kilat,0,2020
+348,kabupaten garut,rumah tangga,3,2020
+349,kabupaten garut,tempat kerja,0,2020
+350,kabupaten garut,lainnya,4,2020
+351,kabupaten garut,sekolah,0,2020
+352,kabupaten garut,fasilitas umum,0,2020
+353,kabupaten garut,lembaga pendidikan kilat,0,2020
+354,kabupaten tasikmalaya,rumah tangga,32,2020
+355,kabupaten tasikmalaya,tempat kerja,0,2020
+356,kabupaten tasikmalaya,lainnya,11,2020
+357,kabupaten tasikmalaya,sekolah,3,2020
+358,kabupaten tasikmalaya,fasilitas umum,3,2020
+359,kabupaten tasikmalaya,lembaga pendidikan kilat,0,2020
+360,kabupaten ciamis,rumah tangga,8,2020
+361,kabupaten ciamis,tempat kerja,0,2020
+362,kabupaten ciamis,lainnya,8,2020
+363,kabupaten ciamis,sekolah,0,2020
+364,kabupaten ciamis,fasilitas umum,0,2020
+365,kabupaten ciamis,lembaga pendidikan kilat,0,2020
+366,kabupaten kuningan,rumah tangga,7,2020
+367,kabupaten kuningan,tempat kerja,0,2020
+368,kabupaten kuningan,lainnya,2,2020
+369,kabupaten kuningan,sekolah,0,2020
+370,kabupaten kuningan,fasilitas umum,1,2020
+371,kabupaten kuningan,lembaga pendidikan kilat,0,2020
+372,kabupaten cirebon,rumah tangga,28,2020
+373,kabupaten cirebon,tempat kerja,0,2020
+374,kabupaten cirebon,lainnya,5,2020
+375,kabupaten cirebon,sekolah,0,2020
+376,kabupaten cirebon,fasilitas umum,6,2020
+377,kabupaten cirebon,lembaga pendidikan kilat,0,2020
+378,kabupaten majalengka,rumah tangga,7,2020
+379,kabupaten majalengka,tempat kerja,0,2020
+380,kabupaten majalengka,lainnya,11,2020
+381,kabupaten majalengka,sekolah,0,2020
+382,kabupaten majalengka,fasilitas umum,1,2020
+383,kabupaten majalengka,lembaga pendidikan kilat,0,2020
+384,kabupaten sumedang,rumah tangga,9,2020
+385,kabupaten sumedang,tempat kerja,0,2020
+386,kabupaten sumedang,lainnya,2,2020
+387,kabupaten sumedang,sekolah,0,2020
+388,kabupaten sumedang,fasilitas umum,1,2020
+389,kabupaten sumedang,lembaga pendidikan kilat,0,2020
+390,kabupaten indramayu,rumah tangga,11,2020
+391,kabupaten indramayu,tempat kerja,1,2020
+392,kabupaten indramayu,lainnya,6,2020
+393,kabupaten indramayu,sekolah,0,2020
+394,kabupaten indramayu,fasilitas umum,0,2020
+395,kabupaten indramayu,lembaga pendidikan kilat,0,2020
+396,kabupaten subang,rumah tangga,12,2020
+397,kabupaten subang,tempat kerja,1,2020
+398,kabupaten subang,lainnya,3,2020
+399,kabupaten subang,sekolah,1,2020
+400,kabupaten subang,fasilitas umum,2,2020
+401,kabupaten subang,lembaga pendidikan kilat,0,2020
+402,kabupaten purwakarta,rumah tangga,22,2020
+403,kabupaten purwakarta,tempat kerja,0,2020
+404,kabupaten purwakarta,lainnya,3,2020
+405,kabupaten purwakarta,sekolah,1,2020
+406,kabupaten purwakarta,fasilitas umum,14,2020
+407,kabupaten purwakarta,lembaga pendidikan kilat,0,2020
+408,kabupaten karawang,rumah tangga,22,2020
+409,kabupaten karawang,tempat kerja,1,2020
+410,kabupaten karawang,lainnya,17,2020
+411,kabupaten karawang,sekolah,0,2020
+412,kabupaten karawang,fasilitas umum,1,2020
+413,kabupaten karawang,lembaga pendidikan kilat,0,2020
+414,kabupaten bekasi,rumah tangga,22,2020
+415,kabupaten bekasi,tempat kerja,0,2020
+416,kabupaten bekasi,lainnya,5,2020
+417,kabupaten bekasi,sekolah,0,2020
+418,kabupaten bekasi,fasilitas umum,4,2020
+419,kabupaten bekasi,lembaga pendidikan kilat,0,2020
+420,kabupaten bandung barat,rumah tangga,9,2020
+421,kabupaten bandung barat,tempat kerja,0,2020
+422,kabupaten bandung barat,lainnya,13,2020
+423,kabupaten bandung barat,sekolah,1,2020
+424,kabupaten bandung barat,fasilitas umum,0,2020
+425,kabupaten bandung barat,lembaga pendidikan kilat,0,2020
+426,kabupaten pangandaran,rumah tangga,3,2020
+427,kabupaten pangandaran,tempat kerja,0,2020
+428,kabupaten pangandaran,lainnya,23,2020
+429,kabupaten pangandaran,sekolah,1,2020
+430,kabupaten pangandaran,fasilitas umum,2,2020
+431,kabupaten pangandaran,lembaga pendidikan kilat,0,2020
+432,kota bogor,rumah tangga,3,2020
+433,kota bogor,tempat kerja,0,2020
+434,kota bogor,lainnya,6,2020
+435,kota bogor,sekolah,0,2020
+436,kota bogor,fasilitas umum,1,2020
+437,kota bogor,lembaga pendidikan kilat,0,2020
+438,kota sukabumi,rumah tangga,32,2020
+439,kota sukabumi,tempat kerja,4,2020
+440,kota sukabumi,lainnya,8,2020
+441,kota sukabumi,sekolah,0,2020
+442,kota sukabumi,fasilitas umum,0,2020
+443,kota sukabumi,lembaga pendidikan kilat,0,2020
+444,kota bandung,rumah tangga,108,2020
+445,kota bandung,tempat kerja,0,2020
+446,kota bandung,lainnya,67,2020
+447,kota bandung,sekolah,3,2020
+448,kota bandung,fasilitas umum,12,2020
+449,kota bandung,lembaga pendidikan kilat,0,2020
+450,kota cirebon,rumah tangga,25,2020
+451,kota cirebon,tempat kerja,0,2020
+452,kota cirebon,lainnya,1,2020
+453,kota cirebon,sekolah,2,2020
+454,kota cirebon,fasilitas umum,1,2020
+455,kota cirebon,lembaga pendidikan kilat,0,2020
+456,kota bekasi,rumah tangga,133,2020
+457,kota bekasi,tempat kerja,1,2020
+458,kota bekasi,lainnya,8,2020
+459,kota bekasi,sekolah,2,2020
+460,kota bekasi,fasilitas umum,0,2020
+461,kota bekasi,lembaga pendidikan kilat,1,2020
+462,kota depok,rumah tangga,41,2020
+463,kota depok,tempat kerja,0,2020
+464,kota depok,lainnya,11,2020
+465,kota depok,sekolah,2,2020
+466,kota depok,fasilitas umum,10,2020
+467,kota depok,lembaga pendidikan kilat,0,2020
+468,kota cimahi,rumah tangga,11,2020
+469,kota cimahi,tempat kerja,0,2020
+470,kota cimahi,lainnya,6,2020
+471,kota cimahi,sekolah,0,2020
+472,kota cimahi,fasilitas umum,5,2020
+473,kota cimahi,lembaga pendidikan kilat,0,2020
+474,kota tasikmalaya,rumah tangga,9,2020
+475,kota tasikmalaya,tempat kerja,0,2020
+476,kota tasikmalaya,lainnya,3,2020
+477,kota tasikmalaya,sekolah,0,2020
+478,kota tasikmalaya,fasilitas umum,6,2020
+479,kota tasikmalaya,lembaga pendidikan kilat,0,2020
+480,kota banjar,rumah tangga,6,2020
+481,kota banjar,tempat kerja,0,2020
+482,kota banjar,lainnya,12,2020
+483,kota banjar,sekolah,0,2020
+484,kota banjar,fasilitas umum,0,2020
+485,kota banjar,lembaga pendidikan kilat,0,2020
+486,kabupaten bogor,rumah tangga,4,2021
+487,kabupaten bogor,tempat kerja,0,2021
+488,kabupaten bogor,lainnya,15,2021
+489,kabupaten bogor,sekolah,1,2021
+490,kabupaten bogor,fasilitas umum,1,2021
+491,kabupaten bogor,lembaga pendidikan kilat,0,2021
+492,kabupaten sukabumi,rumah tangga,42,2021
+493,kabupaten sukabumi,tempat kerja,2,2021
+494,kabupaten sukabumi,lainnya,25,2021
+495,kabupaten sukabumi,sekolah,0,2021
+496,kabupaten sukabumi,fasilitas umum,2,2021
+497,kabupaten sukabumi,lembaga pendidikan kilat,0,2021
+498,kabupaten cianjur,rumah tangga,1,2021
+499,kabupaten cianjur,tempat kerja,0,2021
+500,kabupaten cianjur,lainnya,0,2021
+501,kabupaten cianjur,sekolah,3,2021
+502,kabupaten cianjur,fasilitas umum,0,2021
+503,kabupaten cianjur,lembaga pendidikan kilat,0,2021
+504,kabupaten bandung,rumah tangga,66,2021
+505,kabupaten bandung,tempat kerja,1,2021
+506,kabupaten bandung,lainnya,11,2021
+507,kabupaten bandung,sekolah,1,2021
+508,kabupaten bandung,fasilitas umum,12,2021
+509,kabupaten bandung,lembaga pendidikan kilat,0,2021
+510,kabupaten garut,rumah tangga,6,2021
+511,kabupaten garut,tempat kerja,0,2021
+512,kabupaten garut,lainnya,4,2021
+513,kabupaten garut,sekolah,1,2021
+514,kabupaten garut,fasilitas umum,1,2021
+515,kabupaten garut,lembaga pendidikan kilat,0,2021
+516,kabupaten tasikmalaya,rumah tangga,0,2021
+517,kabupaten tasikmalaya,tempat kerja,0,2021
+518,kabupaten tasikmalaya,lainnya,2,2021
+519,kabupaten tasikmalaya,sekolah,0,2021
+520,kabupaten tasikmalaya,fasilitas umum,0,2021
+521,kabupaten tasikmalaya,lembaga pendidikan kilat,0,2021
+522,kabupaten ciamis,rumah tangga,4,2021
+523,kabupaten ciamis,tempat kerja,0,2021
+524,kabupaten ciamis,lainnya,14,2021
+525,kabupaten ciamis,sekolah,0,2021
+526,kabupaten ciamis,fasilitas umum,0,2021
+527,kabupaten ciamis,lembaga pendidikan kilat,0,2021
+528,kabupaten kuningan,rumah tangga,1,2021
+529,kabupaten kuningan,tempat kerja,0,2021
+530,kabupaten kuningan,lainnya,18,2021
+531,kabupaten kuningan,sekolah,0,2021
+532,kabupaten kuningan,fasilitas umum,0,2021
+533,kabupaten kuningan,lembaga pendidikan kilat,0,2021
+534,kabupaten cirebon,rumah tangga,29,2021
+535,kabupaten cirebon,tempat kerja,0,2021
+536,kabupaten cirebon,lainnya,7,2021
+537,kabupaten cirebon,sekolah,2,2021
+538,kabupaten cirebon,fasilitas umum,5,2021
+539,kabupaten cirebon,lembaga pendidikan kilat,1,2021
+540,kabupaten majalengka,rumah tangga,40,2021
+541,kabupaten majalengka,tempat kerja,0,2021
+542,kabupaten majalengka,lainnya,8,2021
+543,kabupaten majalengka,sekolah,1,2021
+544,kabupaten majalengka,fasilitas umum,0,2021
+545,kabupaten majalengka,lembaga pendidikan kilat,0,2021
+546,kabupaten sumedang,rumah tangga,23,2021
+547,kabupaten sumedang,tempat kerja,0,2021
+548,kabupaten sumedang,lainnya,2,2021
+549,kabupaten sumedang,sekolah,0,2021
+550,kabupaten sumedang,fasilitas umum,1,2021
+551,kabupaten sumedang,lembaga pendidikan kilat,0,2021
+552,kabupaten indramayu,rumah tangga,11,2021
+553,kabupaten indramayu,tempat kerja,0,2021
+554,kabupaten indramayu,lainnya,7,2021
+555,kabupaten indramayu,sekolah,0,2021
+556,kabupaten indramayu,fasilitas umum,3,2021
+557,kabupaten indramayu,lembaga pendidikan kilat,1,2021
+558,kabupaten subang,rumah tangga,10,2021
+559,kabupaten subang,tempat kerja,0,2021
+560,kabupaten subang,lainnya,1,2021
+561,kabupaten subang,sekolah,0,2021
+562,kabupaten subang,fasilitas umum,0,2021
+563,kabupaten subang,lembaga pendidikan kilat,0,2021
+564,kabupaten purwakarta,rumah tangga,7,2021
+565,kabupaten purwakarta,tempat kerja,0,2021
+566,kabupaten purwakarta,lainnya,2,2021
+567,kabupaten purwakarta,sekolah,3,2021
+568,kabupaten purwakarta,fasilitas umum,0,2021
+569,kabupaten purwakarta,lembaga pendidikan kilat,0,2021
+570,kabupaten karawang,rumah tangga,3,2021
+571,kabupaten karawang,tempat kerja,0,2021
+572,kabupaten karawang,lainnya,4,2021
+573,kabupaten karawang,sekolah,1,2021
+574,kabupaten karawang,fasilitas umum,1,2021
+575,kabupaten karawang,lembaga pendidikan kilat,0,2021
+576,kabupaten bekasi,rumah tangga,80,2021
+577,kabupaten bekasi,tempat kerja,0,2021
+578,kabupaten bekasi,lainnya,18,2021
+579,kabupaten bekasi,sekolah,6,2021
+580,kabupaten bekasi,fasilitas umum,14,2021
+581,kabupaten bekasi,lembaga pendidikan kilat,0,2021
+582,kabupaten bandung barat,rumah tangga,12,2021
+583,kabupaten bandung barat,tempat kerja,0,2021
+584,kabupaten bandung barat,lainnya,21,2021
+585,kabupaten bandung barat,sekolah,3,2021
+586,kabupaten bandung barat,fasilitas umum,0,2021
+587,kabupaten bandung barat,lembaga pendidikan kilat,0,2021
+588,kabupaten pangandaran,rumah tangga,13,2021
+589,kabupaten pangandaran,tempat kerja,0,2021
+590,kabupaten pangandaran,lainnya,11,2021
+591,kabupaten pangandaran,sekolah,0,2021
+592,kabupaten pangandaran,fasilitas umum,2,2021
+593,kabupaten pangandaran,lembaga pendidikan kilat,0,2021
+594,kota bogor,rumah tangga,7,2021
+595,kota bogor,tempat kerja,0,2021
+596,kota bogor,lainnya,8,2021
+597,kota bogor,sekolah,1,2021
+598,kota bogor,fasilitas umum,2,2021
+599,kota bogor,lembaga pendidikan kilat,0,2021
+600,kota sukabumi,rumah tangga,23,2021
+601,kota sukabumi,tempat kerja,0,2021
+602,kota sukabumi,lainnya,22,2021
+603,kota sukabumi,sekolah,3,2021
+604,kota sukabumi,fasilitas umum,13,2021
+605,kota sukabumi,lembaga pendidikan kilat,0,2021
+606,kota bandung,rumah tangga,3,2021
+607,kota bandung,tempat kerja,0,2021
+608,kota bandung,lainnya,2,2021
+609,kota bandung,sekolah,0,2021
+610,kota bandung,fasilitas umum,0,2021
+611,kota bandung,lembaga pendidikan kilat,0,2021
+612,kota cirebon,rumah tangga,9,2021
+613,kota cirebon,tempat kerja,1,2021
+614,kota cirebon,lainnya,75,2021
+615,kota cirebon,sekolah,0,2021
+616,kota cirebon,fasilitas umum,3,2021
+617,kota cirebon,lembaga pendidikan kilat,0,2021
+618,kota bekasi,rumah tangga,0,2021
+619,kota bekasi,tempat kerja,0,2021
+620,kota bekasi,lainnya,30,2021
+621,kota bekasi,sekolah,1,2021
+622,kota bekasi,fasilitas umum,4,2021
+623,kota bekasi,lembaga pendidikan kilat,0,2021
+624,kota depok,rumah tangga,2,2021
+625,kota depok,tempat kerja,0,2021
+626,kota depok,lainnya,8,2021
+627,kota depok,sekolah,0,2021
+628,kota depok,fasilitas umum,3,2021
+629,kota depok,lembaga pendidikan kilat,0,2021
+630,kota cimahi,rumah tangga,5,2021
+631,kota cimahi,tempat kerja,0,2021
+632,kota cimahi,lainnya,2,2021
+633,kota cimahi,sekolah,3,2021
+634,kota cimahi,fasilitas umum,0,2021
+635,kota cimahi,lembaga pendidikan kilat,0,2021
+636,kota tasikmalaya,rumah tangga,54,2021
+637,kota tasikmalaya,tempat kerja,1,2021
+638,kota tasikmalaya,lainnya,49,2021
+639,kota tasikmalaya,sekolah,7,2021
+640,kota tasikmalaya,fasilitas umum,15,2021
+641,kota tasikmalaya,lembaga pendidikan kilat,0,2021
+642,kota banjar,rumah tangga,0,2021
+643,kota banjar,tempat kerja,0,2021
+644,kota banjar,lainnya,15,2021
+645,kota banjar,sekolah,0,2021
+646,kota banjar,fasilitas umum,2,2021
+647,kota banjar,lembaga pendidikan kilat,0,2021
