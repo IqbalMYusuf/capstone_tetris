@@ -2,7 +2,6 @@ import pandas as pd
 import string
 import streamlit as st
 import plotly.express as px
-import lorem
 st.set_page_config(layout="wide")
 
 # Loading Dataset yag diperlukan
