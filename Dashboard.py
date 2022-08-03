@@ -1,4 +1,5 @@
 import pandas as pd
+import string
 import streamlit as st
 import plotly.express as px
 import lorem
@@ -23,9 +24,10 @@ list_kab_kota.append("jawa barat")
 
 # Setting layout untuk streamlit
 st.caption("Capstone Project Tetris II - Iqbal M. Yusuf")
-st.title("Eksplorasi Kasus Tindak Kekerasan di Jawa Barat Tahun 2017-2021")
+st.markdown("<h1 style='text-align: center; font-size: 44px;'>Eksplorasi Kasus Tindak Kekerasan di Jawa Barat Tahun 2017-2021</h1>", unsafe_allow_html=True)
+st.write("\n")
 
-st.write(lorem.paragraph())
+st.markdown("<p style='text-align: justify; font-size: 18px;'><i>Dashboard</i> ini berisi data hasil eksplorasi terhadap kasus tindak kekerasan yang terjadi di provinsi Jawa Barat. Adapun data yang ditampilkan berupa data jumlah kasus kekerasan, jenis kekerasan, tempat terjadinya kekerasan, dan perbandingan antara jumlah korban terlapor dengan korban terlayani yang disajikan dalam bentuk <i>line, bar,</i> dan <i>pie chart</i>.</p>", unsafe_allow_html=True)
 st.write("\n")
 st.write("\n")
 
@@ -37,7 +39,7 @@ with st.sidebar:
     korban = st.selectbox("Pilih korban", ["anak laki-laki", "anak perempuan", "perempuan"])
 
 # Membuat grafik yang berisi data kekerasan pertahun/per-kabupaten/kota
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(2, gap="large")
 with col2:
     tipe = st.selectbox("Pilih jenis visualisasi", ["Data per tahun", "Data per kabupaten/kota"])
     if tipe == "Data per tahun":
@@ -46,7 +48,7 @@ with col2:
             fig = px.bar(data1, x='jumlah', y='kabupaten/kota', color='korban', 
                          color_discrete_map={'anak_laki_laki': '#7ED0F7', 'anak_perempuan': '#D0F77E', 'perempuan' : '#F77ED0'},
                          width=700, height=600)
-            fig.update_layout(title={ 'text': "Data tahun {}".format(tahun),
+            fig.update_layout(title={ 'text': "Data Tahun {}".format(tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -61,7 +63,7 @@ with col2:
             fig = px.bar(data1, x='jumlah', y='kabupaten/kota', color='korban', 
                          color_discrete_map={'anak_laki_laki': '#7ED0F7', 'anak_perempuan': '#D0F77E', 'perempuan' : '#F77ED0'},
                          width=700, height=600)
-            fig.update_layout(title={ 'text': "Data tahun {}".format(tahun),
+            fig.update_layout(title={ 'text': "Data Tahun {}".format(tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -77,7 +79,7 @@ with col2:
             fig = px.line(data1, x='tahun', y='jumlah', color='korban', 
                          color_discrete_map={'anak_laki_laki': '#7ED0F7', 'anak_perempuan': '#D0F77E', 'perempuan' : '#F77ED0'},
                          width=700, height=600)
-            fig.update_layout(title={ 'text': "Data untuk {}".format(kab_kota),
+            fig.update_layout(title={ 'text': "Jumlah Kekerasan di {}".format(string.capwords(kab_kota)),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -91,7 +93,7 @@ with col2:
             fig = px.line(data1, x='tahun', y='jumlah', color='korban', 
                          color_discrete_map={'anak_laki_laki': '#7ED0F7', 'anak_perempuan': '#D0F77E', 'perempuan' : '#F77ED0'},
                          width=700, height=600)
-            fig.update_layout(title={ 'text': "Data untuk {}".format(kab_kota),
+            fig.update_layout(title={ 'text': "Jumlah Kekerasan di {}".format(string.capwords(kab_kota)),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -101,28 +103,42 @@ with col2:
             st.plotly_chart(fig)
 
 with col1:
-    if tipe == "Data per tahun":
-        st.subheader("Data kekerasan pada tahun {}".format(tahun))
-        st.write(lorem.paragraph())
-    else:
-        st.subheader("Data kekerasan di {}".format(kab_kota))
-        st.write(lorem.paragraph())      
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    st.markdown("<h1 style='text-align: left; font-size: 32px;'>Jumlah Kasus Kekerasan", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; font-size:18px;'>Dari visualisasi disamping, dapat dilihat bahwa terjadi kenaikan kasus tindak kekerasan dari tahun 2018-2019 dan 2020-2021 dengan Kota Bandung sebagai kota dengan jumlah kasus tindak kekerasan yang paling tinggi.</p>", unsafe_allow_html=True)   
 
 # Membuat section untuk grafik baru
 st.write("\n")
 st.write("\n")
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(2, gap="large")
 
 # Membuat grafik yang berisi jenis kekerasan yang dialami oleh korban
 with col1:
-    st.subheader("Jenis kekerasan yang dialami oleh korban {} di {}".format(korban, kab_kota))
+    st.markdown("<h1 style='text-align: left; font-size: 32px;'>Jenis Kekerasan yang Dialami Oleh Korban {} di {}</h1>".format(string.capwords(korban), string.capwords(kab_kota)), unsafe_allow_html=True)
     if kab_kota == "jawa barat":
         if korban == "anak laki-laki":
             data2 = df[df_name.index("jumlah_korban")].groupby(["tahun", "jenis_kekerasan"])["jumlah_korban_anak_laki-laki"].sum().reset_index()
             fig = px.bar(data2, x='tahun', y='jumlah_korban_anak_laki-laki', color='jenis_kekerasan', 
                          color_discrete_map={"eksploitasi": "#ADADAD", "fisik": "#7ED0F7", "lainnya": "#7E94F7", "penelantaran": "#F77ED0", "psikis": "#F77E94", "seksual": "#D0F77E", "trafficking": "#94F77E"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Jenis kekerasan",
+            fig.update_layout(title={ 'text': "Jenis Kekerasan",
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -137,7 +153,7 @@ with col1:
             fig = px.bar(data2, x='tahun', y='jumlah_korban_anak_perempuan', color='jenis_kekerasan', 
                          color_discrete_map={"eksploitasi": "#ADADAD", "fisik": "#7ED0F7", "lainnya": "#7E94F7", "penelantaran": "#F77ED0", "psikis": "#F77E94", "seksual": "#D0F77E", "trafficking": "#94F77E" },
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Jenis kekerasan",
+            fig.update_layout(title={ 'text': "Jenis Kekerasan",
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -152,7 +168,7 @@ with col1:
             fig = px.bar(data2, x='tahun', y='jumlah_korban_perempuan', color='jenis_kekerasan', 
                          color_discrete_map={"eksploitasi": "#ADADAD", "fisik": "#7ED0F7", "lainnya": "#7E94F7", "penelantaran": "#F77ED0", "psikis": "#F77E94", "seksual": "#D0F77E", "trafficking": "#94F77E" },
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Jenis kekerasan",
+            fig.update_layout(title={ 'text': "Jenis Kekerasan",
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -168,7 +184,7 @@ with col1:
             fig = px.bar(data2, x='tahun', y='jumlah_korban_anak_laki-laki', color='jenis_kekerasan', 
                          color_discrete_map={"eksploitasi": "#ADADAD", "fisik": "#7ED0F7", "lainnya": "#7E94F7", "penelantaran": "#F77ED0", "psikis": "#F77E94", "seksual": "#D0F77E", "trafficking": "#94F77E"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Jenis kekerasan",
+            fig.update_layout(title={ 'text': "Jenis Kekerasan",
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -183,7 +199,7 @@ with col1:
             fig = px.bar(data2, x='tahun', y='jumlah_korban_anak_perempuan', color='jenis_kekerasan', 
                          color_discrete_map={"eksploitasi": "#ADADAD", "fisik": "#7ED0F7", "lainnya": "#7E94F7", "penelantaran": "#F77ED0", "psikis": "#F77E94", "seksual": "#D0F77E", "trafficking": "#94F77E" },
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Jenis kekerasan",
+            fig.update_layout(title={ 'text': "Jenis Kekerasan",
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -198,7 +214,7 @@ with col1:
             fig = px.bar(data2, x='tahun', y='jumlah_korban_perempuan', color='jenis_kekerasan', 
                          color_discrete_map={"eksploitasi": "#ADADAD", "fisik": "#7ED0F7", "lainnya": "#7E94F7", "penelantaran": "#F77ED0", "psikis": "#F77E94", "seksual": "#D0F77E", "trafficking": "#94F77E" },
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Jenis kekerasan",
+            fig.update_layout(title={ 'text': "Jenis Kekerasan",
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -207,17 +223,17 @@ with col1:
             fig.update_layout({"plot_bgcolor": "rgba(0, 0, 0, 0)", "paper_bgcolor": "rgba(0, 0, 0, 0)"})
             fig.update_yaxes(title="jumlah korban")
             st.plotly_chart(fig)
-    st.write(lorem.paragraph())
+    st.markdown("<p style='text-align: justify; font-size: 18px;'>Jenis kekerasan yang sering terjadi adalah kekerasan seksual, fisik, dan psikis. Untuk korban anak laki-laki dan anak perempuan, jenis kekerasan yang paling sering terjadi (besar proporsinya) adalah kekerasan seksual sementara untuk perempuan umumnya berupa kekerasan psikis.</p>", unsafe_allow_html=True)
 
 # Grafik tempat terjadinya tindak kekerasan
 with col2:
-    st.subheader("Distribusi tempat terjadinya tindak kekerasan di {} berdasarkan tahun kejadian".format(kab_kota))
+    st.markdown("<h1 style='text-align: left; font-size: 32px;'>Tempat Terjadinya Kekerasan di {} Berdasarkan Tahun Kejadian</h1>".format(string.capwords(kab_kota)), unsafe_allow_html=True)
     if kab_kota == "jawa barat":
         data3 = df[df_name.index("tempat_kejadian")].groupby(["tahun", "tempat_kejadian"])["jumlah_kekerasan"].sum().reset_index()
         fig = px.bar(data3, x='tahun', y='jumlah_kekerasan', color='tempat_kejadian', 
                      color_discrete_map={"rumah tangga": "#D77EF7", "tempat kerja": "#7EF79A", "lainnya": "#F79A7E", "sekolah": "#F7D77E", "fasilitas umum": "#7EF7D7", "lembaga pendidikan kilat": "#9A7EF7"},
                      width=600, height=600)
-        fig.update_layout(title={ 'text': "Tempat kejadian kekerasan",
+        fig.update_layout(title={ 'text': "Tempat Kejadian Kekerasan",
                                   'y':0.97,
                                   'x':0.5,
                                   'xanchor': 'center',
@@ -232,7 +248,7 @@ with col2:
         fig = px.bar(data3, x='tahun', y='jumlah_kekerasan', color='tempat_kejadian', 
                      color_discrete_map={"rumah tangga": "#D77EF7", "tempat kerja": "#7EF79A", "lainnya": "#F79A7E", "sekolah": "#F7D77E", "fasilitas umum": "#7EF7D7", "lembaga pendidikan kilat": "#9A7EF7"},
                      width=600, height=600)
-        fig.update_layout(title={ 'text': "Tempat kejadian kekerasan",
+        fig.update_layout(title={ 'text': "Tempat Kejadian Kekerasan",
                                   'y':0.97,
                                   'x':0.5,
                                   'xanchor': 'center',
@@ -241,13 +257,15 @@ with col2:
         fig.update_layout({"plot_bgcolor": "rgba(0, 0, 0, 0)", "paper_bgcolor": "rgba(0, 0, 0, 0)"})
         fig.update_yaxes(title="jumlah korban")
         st.plotly_chart(fig)
-    st.write(lorem.paragraph())
+    st.markdown("<p style='text-align: justify; font-size: 18px;'>Berdasarkan grafik, kekerasan sering terjadi di rumah, fasilitas umum, sekolah dan lainnya (diluar kategori yang ada pada grafik). Dari grafik jenis kekerasan, dapat dilihat bahwa kekerasan yang terjadi dapat dikaitkan dengan adanya permasalahan dalam keluarga yang berujung pada kekerasan psikis dan fisik.</p>", unsafe_allow_html=True)
 
 # Membuat section yang membandingkan antara kasus yang terlapor dan kasus yang terlayani
 st.write("\n")
 st.write("\n")
-st.subheader("Perbandingan antara kasus terlapor dengan kasus yang terlayani")
-st.write(lorem.paragraph())
+st.markdown("<h1 style='text-align: center; font-size: 32px;'>Perbandingan Antara Kasus Terlapor Dengan Kasus yang Terlayani</h1>", unsafe_allow_html=True)
+st.write("\n")
+st.markdown("<p style='text-align: justify; font-size: 18px;'>Dalam bagian ini, akan disajikan visualisasi dari jumlah korban terdata/terlapor dan jumlah korban terlayani yang disajikan dalam bentuk <i>pie chart</i> dengan pembagian tipe korban (anak laki-laki, anak perempuan, perempuan, dan laki-laki) untuk tahun dan kabupaten/kota tertentu.</p>", unsafe_allow_html=True)
+st.write("\n")
 
 col1, col2 = st.columns(2)
 with col1:
@@ -257,7 +275,7 @@ with col1:
             fig = px.pie(data4, values='jumlah', names='korban', color="korban",
                          color_discrete_map={"anak_perempuan": "#F77ED0", "anak_laki_laki": "#7ED0F7", "perempuan": "#D0F77E"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Korban terlapor di {} tahun {}".format(kab_kota, tahun),
+            fig.update_layout(title={ 'text': "Korban Terlapor di {} Tahun {}".format(string.capwords(kab_kota), tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -270,7 +288,7 @@ with col1:
             fig = px.pie(data4, values='jumlah', names='korban', color="korban",
                          color_discrete_map={"anak_perempuan": "#F77ED0", "anak_laki_laki": "#7ED0F7", "perempuan": "#D0F77E"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Korban terlapor di {} tahun {}".format(kab_kota, tahun),
+            fig.update_layout(title={ 'text': "Korban Terlapor di {} Tahun {}".format(string.capwords(kab_kota), tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -284,7 +302,7 @@ with col1:
             fig = px.pie(data4, values='jumlah', names='korban', color="korban",
                          color_discrete_map={"anak_perempuan": "#F77ED0", "anak_laki_laki": "#7ED0F7", "perempuan": "#D0F77E"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Korban terlapor di {} tahun {}".format(kab_kota, tahun),
+            fig.update_layout(title={ 'text': "Korban Terlapor di {} Tahun {}".format(string.capwords(kab_kota), tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -297,7 +315,7 @@ with col1:
             fig = px.pie(data4, values='jumlah', names='korban', color="korban",
                          color_discrete_map={"anak_perempuan": "#F77ED0", "anak_laki_laki": "#7ED0F7", "perempuan": "#D0F77E"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Korban terlapor di {} tahun {}".format(kab_kota, tahun),
+            fig.update_layout(title={ 'text': "Korban Terlapor di {} Tahun {}".format(string.capwords(kab_kota), tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -315,7 +333,7 @@ with col2:
             fig = px.pie(data5, values='jumlah_korban', names='jenis_kelamin', color="jenis_kelamin",
                          color_discrete_map={"perempuan": "#F77ED0", "laki-laki": "#7ED0F7"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Korban terlayani di {} tahun {}".format(kab_kota, tahun),
+            fig.update_layout(title={ 'text': "Korban Terlayani di {} Tahun {}".format(string.capwords(kab_kota), tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -328,7 +346,7 @@ with col2:
             fig = px.pie(data5, values='jumlah_korban', names='jenis_kelamin', color="jenis_kelamin",
                          color_discrete_map={"perempuan": "#F77ED0", "laki-laki": "#7ED0F7"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Korban terlayani di {} tahun {}".format(kab_kota, tahun),
+            fig.update_layout(title={ 'text': "Korban Terlayani di {} Tahun {}".format(string.capwords(kab_kota), tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -343,7 +361,7 @@ with col2:
             fig = px.pie(data5, values='jumlah_korban', names='jenis_kelamin', color="jenis_kelamin",
                          color_discrete_map={"perempuan": "#F77ED0", "laki-laki": "#7ED0F7"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Korban terlayani di {} tahun {}".format(kab_kota, tahun),
+            fig.update_layout(title={ 'text': "Korban Terlayani di {} Tahun {}".format(string.capwords(kab_kota), tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -356,7 +374,7 @@ with col2:
             fig = px.pie(data5, values='jumlah_korban', names='jenis_kelamin', color="jenis_kelamin",
                          color_discrete_map={"perempuan": "#F77ED0", "laki-laki": "#7ED0F7"},
                          width=600, height=600)
-            fig.update_layout(title={ 'text': "Korban terlayani di {} tahun {}".format(kab_kota, tahun),
+            fig.update_layout(title={ 'text': "Korban Terlayani di {} Tahun {}".format(string.capwords(kab_kota), tahun),
                                       'y':0.97,
                                       'x':0.5,
                                       'xanchor': 'center',
@@ -364,6 +382,6 @@ with col2:
                               title_font_size=24)
             st.plotly_chart(fig)
 
-st.write(lorem.paragraph())
+st.markdown("<p style='text-align: justify; font-size: 18px;'>Pada kedua grafik di atas, dapat dilihat bahwa jumlah korban yang terlayani masih sedikit jika dibandingkan dengan jumlah korban yang terdata/terlapor. Hal ini mungkin dapat disebabkan oleh beberapa hal, yaitu rasa malu dari korban untuk melapor, adanya tekanan dari pelaku kekerasan, dan korban yang tidak sadar bahwa dirinya menjadi korban kekerasan.</p>", unsafe_allow_html=True)
 st.write("")
 st.caption("Sumber data diperoleh dari https://opendata.jabarprov.go.id/")
