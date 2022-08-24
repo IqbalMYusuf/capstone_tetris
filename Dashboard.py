@@ -249,11 +249,15 @@ with col1:
 
     if tahun == "2017-2021":
         if kab_kota == "jawa barat":
-            data4 = df[df_name.index("total_korban_kabupaten_kota")].groupby("korban")["jumlah"].sum().reset_index()
+            data4 = df[df_name.index("total_korban_kabupaten_kota")]
+            data4.drop(data4.index[data4['tahun'] == 2017], inplace=True)
+            data4 = data4.groupby("korban")["jumlah"].sum().reset_index()
             st.plotly_chart(pie_chart(data4, val4, name4, color4, cmap4, title4))
 
         else:
-            data4 = df[df_name.index("total_korban_kabupaten_kota")].loc[df[df_name.index("total_korban_kabupaten_kota")]["kabupaten/kota"] == kab_kota]
+            data4 = df[df_name.index("total_korban_kabupaten_kota")]
+            data4.drop(data4.index[data4['tahun'] == 2017], inplace=True)
+            data4 = data4.loc[df[df_name.index("total_korban_kabupaten_kota")]["kabupaten/kota"] == kab_kota]
             data4 = data4.groupby("korban")["jumlah"].sum().reset_index()
             st.plotly_chart(pie_chart(data4, val4, name4, color4, cmap4, title4))
 
