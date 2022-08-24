@@ -302,3 +302,5 @@ with col2:
 st.markdown("<p style='text-align: justify; font-size: 18px;'>Pada kedua grafik di atas, dapat dilihat bahwa jumlah korban yang terlayani masih sedikit jika dibandingkan dengan jumlah korban yang terdata/terlapor. Hal ini mungkin dapat disebabkan oleh beberapa hal, yaitu rasa malu dari korban untuk melapor, adanya tekanan dari pelaku kekerasan, dan korban yang tidak sadar bahwa dirinya menjadi korban kekerasan.</p>", unsafe_allow_html=True)
 st.write("")
 st.caption("Sumber data diperoleh dari https://opendata.jabarprov.go.id/")
+
+st.caption("Portofolio lain dapat dilihat pada https://iqbalmyusuf.github.io/")
