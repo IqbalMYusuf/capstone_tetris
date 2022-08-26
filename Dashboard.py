@@ -279,7 +279,7 @@ with col2:
         st.write("Data tidak tersedia")
 
     elif tahun == "2017-2021":
-        title5 = "Korban Terlayani di {} Tahun 2018-2021"
+        title5 = "Korban Terlayani di {} Tahun 2018-2021".format(string.capwords(kab_kota))
         if kab_kota == "jawa barat":
             data5 = df[df_name.index("korban_terlayani")].groupby("jenis_kelamin")["jumlah_korban"].sum().reset_index()
             st.plotly_chart(pie_chart(data5, val5, name5, color5, cmap5, title5))  
